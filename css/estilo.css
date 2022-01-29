@@ -6,6 +6,36 @@ h1{
     color: #0CCE6B;
 }
 
+nav#navbar a{
+    color: green;
+    font-weight: 500;
+}
+
+nav#navbar button{
+    background-color: green;
+    color: white;
+}
+
+div#titulo h1{
+    font-weight: 800;
+}
+
+footer#rodape{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px;
+}
+
+footer#rodape p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer#rodape a{
+    color: whitesmoke;
+}
+
 .cor1{
     background-color:#0CCE6B ;
 }
