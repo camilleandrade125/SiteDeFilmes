@@ -31,6 +31,11 @@ div#titulo h1{
     margin-bottom: 50px;
 }
 
+.space-2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
 .tamanho-letra{
     font-size: 70px;
 }
@@ -49,10 +54,6 @@ footer#rodape{
 
 footer#rodape p{
     text-align: center;
-    color: whitesmoke;
-}
-
-footer#rodape a{
     color: whitesmoke;
 }
 
