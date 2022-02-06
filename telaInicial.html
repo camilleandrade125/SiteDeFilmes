@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>IFLIX</title>
+</head>
+
+<body>
+    <div class="nome text-center" id="titulo">
+        <h1 class="tamanho-letra">IFLIX</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light cor1" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="imagens/IFLIX.jpg" width="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="IFLIX">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#FILMES">Filmes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Opções
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#INFANTIS">Infantis</a></li>
+                  <li><a class="dropdown-item" href="#ANIMES">Animes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#FILMES FAVORITADOS">Filmes Mais Assistidos</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/toy.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/scoby.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/miranha.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="container text-light" id="FILMES">
+        <br>
+        <h2>FILMES</h2>
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="row"> 
+            <div class="col efeito">
+                <img src="imagens/peter.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col efeito">
+                <img src="imagens/exo.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col efeito">
+                <img src="imagens/alerta.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col efeito">
+                <img src="imagens/pe.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container text-light" id="INFANTIS">
+                <br>
+                <h2>INFANTIS</h2>
+                <br>
+            </div>
+        
+            <div class="col efeito">
+            
+                <img src="imagens/pino.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col efeito">
+                <img src="imagens/tart.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col efeito">
+                <img src="imagens/encatado.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col efeito">
+                <img src="imagens/pocah.jpg" class="img-fluid" alt="...">
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="container text-light" id="ANIMES">
+              <br>
+              <h2>ANIMES</h2>
+              <br>
+          </div>
+      
+          <div class="col efeito">
+          
+              <img src="imagens/dragon.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col efeito">
+              <img src="imagens/inu.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col efeito">
+              <img src="imagens/poke.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col efeito">
+              <img src="imagens/sakura.jpg" class="img-fluid" alt="...">
+          </div>
+      </div>
+
+        <div class="row">
+            <div class="container text-light" id="FILMES FAVORITADOS">
+                <br>
+                <h2>FILMES MAIS ASSISTIDOS</h2>
+                <br>
+            </div>   
+            <div class="col efeito">
+             <img src="imagens/dev.jpg" class="img-fluid" alt="..."> <br>
+            </div>
+            <div class="col efeito">
+                <img src="imagens/im.jpg" class="img-fluid" alt="..."> <br>
+            </div>
+            <div class="col efeito">
+                <img src="imagens/saudades.jpg" class="img-fluid" alt="..."> <br>
+            </div>
+            <div class="col efeito" >
+                <img src="imagens/bnc.jpg" class="img-fluid" alt="..."> <br>
+            </div>
+        </div>
+        <br>
+</body>
+
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+  <p class="col-md-4 mb-0 text-muted">© 2022 Criado por Mayla e Camille</p>
+
+  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+  </a>
+
+  <ul class="nav col-md-4 justify-content-end">
+    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+    <li class="nav-item"><a href="formulario-login.html" class="nav-link px-2 text-muted">Login</a></li>
+    <li class="nav-item"><a href="formulario-cad.html" class="nav-link px-2 text-muted">Cadastre-se</a></li>
+    <li class="nav-item"><a href="https://ananindeua.ifpa.edu.br/" class="nav-link px-2 text-muted" target="_blank">Sobre</a></li>
+  </ul>
+</footer>
+<br>
+
+</html>
