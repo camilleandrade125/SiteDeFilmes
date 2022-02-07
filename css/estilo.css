@@ -1,0 +1,74 @@
+body{
+    background-color:black ;
+}
+
+h1{
+    color: #0CCE6B;
+}
+
+nav#navbar a{
+    color: green;
+    font-weight: 500;
+}
+
+nav#navbar button{
+    background-color: green;
+    color: white;
+}
+
+div#titulo h1{
+    font-weight: 800;
+}
+
+.efeito:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: scale(1.2, 1.2);
+}
+
+.space-1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.space-2{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.tamanho-letra{
+    font-size: 70px;
+}
+
+.space{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+footer#rodape{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 1px;
+}
+
+footer#rodape p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.cor1{
+    background-color:#0CCE6B ;
+}
+
+.back-fund-input{
+    background-color: #0CCE6B;
+    font-weight: bold;
+    color: white;
+    width: 250px;
+}
+ 
+.subtitulo{
+    background-color:#0CCE6B ;
+    font-size: 15;
+}
