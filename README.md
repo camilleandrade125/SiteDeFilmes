@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-  <img src="https://cdn.discordapp.com/attachments/897629477352402987/940069091224473641/unknown.png"/>
+  <img src="/imagens/telaInit.png"/>
 </h1>
 
 ## 🚨 Sobre
